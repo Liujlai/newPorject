@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A51248496DCA5D64FECDF9A /* Pods_NewPorject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5652C0FC48FA55A76C08B9D0 /* Pods_NewPorject.framework */; };
 		784A3B29208F0EEC00984197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B28208F0EEC00984197 /* AppDelegate.swift */; };
 		784A3B2B208F0EEC00984197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B2A208F0EEC00984197 /* ViewController.swift */; };
 		784A3B2E208F0EEC00984197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784A3B2C208F0EEC00984197 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05A52CF33E77E4BC750388EF /* Pods-NewPorject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPorject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewPorject/Pods-NewPorject.debug.xcconfig"; sourceTree = "<group>"; };
+		5652C0FC48FA55A76C08B9D0 /* Pods_NewPorject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewPorject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		784A3B25208F0EEC00984197 /* NewPorject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPorject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784A3B28208F0EEC00984197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		784A3B2A208F0EEC00984197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		784A3B2F208F0EEE00984197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		784A3B32208F0EEE00984197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		784A3B34208F0EEE00984197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC15204E5F954A0CB02A5F0F /* Pods-NewPorject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPorject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewPorject/Pods-NewPorject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A51248496DCA5D64FECDF9A /* Pods_NewPorject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FD75C6FCE0246F86FAA737E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05A52CF33E77E4BC750388EF /* Pods-NewPorject.debug.xcconfig */,
+				BC15204E5F954A0CB02A5F0F /* Pods-NewPorject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		784A3B1C208F0EEC00984197 = {
 			isa = PBXGroup;
 			children = (
 				784A3B27208F0EEC00984197 /* NewPorject */,
 				784A3B26208F0EEC00984197 /* Products */,
+				0FD75C6FCE0246F86FAA737E /* Pods */,
+				B000D7F3E2886E691D17A813 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = NewPorject;
 			sourceTree = "<group>";
 		};
+		B000D7F3E2886E691D17A813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5652C0FC48FA55A76C08B9D0 /* Pods_NewPorject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 784A3B37208F0EEE00984197 /* Build configuration list for PBXNativeTarget "NewPorject" */;
 			buildPhases = (
+				331ABE4229E652143B336743 /* [CP] Check Pods Manifest.lock */,
 				784A3B21208F0EEC00984197 /* Sources */,
 				784A3B22208F0EEC00984197 /* Frameworks */,
 				784A3B23208F0EEC00984197 /* Resources */,
+				FA58B3FF758CEB179C1DC711 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		331ABE4229E652143B336743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewPorject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA58B3FF758CEB179C1DC711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewPorject/Pods-NewPorject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cupcake/Cupcake.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cupcake.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewPorject/Pods-NewPorject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		784A3B21208F0EEC00984197 /* Sources */ = {
@@ -278,14 +355,12 @@
 		};
 		784A3B38208F0EEE00984197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A52CF33E77E4BC750388EF /* Pods-NewPorject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NewPorject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.NewPorject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -295,14 +370,12 @@
 		};
 		784A3B39208F0EEE00984197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC15204E5F954A0CB02A5F0F /* Pods-NewPorject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NewPorject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.NewPorject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
