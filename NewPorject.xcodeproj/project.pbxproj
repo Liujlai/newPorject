@@ -13,6 +13,17 @@
 		784A3B2E208F0EEC00984197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784A3B2C208F0EEC00984197 /* Main.storyboard */; };
 		784A3B30208F0EEE00984197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784A3B2F208F0EEE00984197 /* Assets.xcassets */; };
 		784A3B33208F0EEE00984197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784A3B31208F0EEE00984197 /* LaunchScreen.storyboard */; };
+		784A3B3B208F11B100984197 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B3A208F11B100984197 /* Api.swift */; };
+		784A3B3D208F11FF00984197 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B3C208F11FF00984197 /* Network.swift */; };
+		784A3B3F208F124900984197 /* MD5Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B3E208F124900984197 /* MD5Digest.swift */; };
+		784A3B41208F127700984197 /* AuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B40208F127700984197 /* AuthPlugin.swift */; };
+		784A3B48208F28EB00984197 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B47208F28EB00984197 /* HomeViewController.swift */; };
+		784A3B4A208F28FE00984197 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B49208F28FD00984197 /* TitleViewController.swift */; };
+		784A3B4C208F290D00984197 /* ManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B4B208F290D00984197 /* ManageViewController.swift */; };
+		784A3B4E208F291C00984197 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B4D208F291C00984197 /* MineViewController.swift */; };
+		784A3B50208F299900984197 /* CYLPlusButtonSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B4F208F299900984197 /* CYLPlusButtonSubclass.swift */; };
+		784A3B52208F2A0B00984197 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B51208F2A0B00984197 /* MainTabBarController.swift */; };
+		784A3B58208F34E300984197 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B57208F34E300984197 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +36,18 @@
 		784A3B2F208F0EEE00984197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		784A3B32208F0EEE00984197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		784A3B34208F0EEE00984197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784A3B3A208F11B100984197 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		784A3B3C208F11FF00984197 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		784A3B3E208F124900984197 /* MD5Digest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5Digest.swift; sourceTree = "<group>"; };
+		784A3B40208F127700984197 /* AuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPlugin.swift; sourceTree = "<group>"; };
+		784A3B42208F142600984197 /* NewPorject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewPorject-Bridging-Header.h"; sourceTree = "<group>"; };
+		784A3B47208F28EB00984197 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		784A3B49208F28FD00984197 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		784A3B4B208F290D00984197 /* ManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageViewController.swift; sourceTree = "<group>"; };
+		784A3B4D208F291C00984197 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		784A3B4F208F299900984197 /* CYLPlusButtonSubclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYLPlusButtonSubclass.swift; sourceTree = "<group>"; };
+		784A3B51208F2A0B00984197 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		784A3B57208F34E300984197 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		BC15204E5F954A0CB02A5F0F /* Pods-NewPorject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPorject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewPorject/Pods-NewPorject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,13 +94,57 @@
 			isa = PBXGroup;
 			children = (
 				784A3B28208F0EEC00984197 /* AppDelegate.swift */,
-				784A3B2A208F0EEC00984197 /* ViewController.swift */,
+				784A3B4B208F290D00984197 /* ManageViewController.swift */,
+				784A3B49208F28FD00984197 /* TitleViewController.swift */,
+				784A3B4D208F291C00984197 /* MineViewController.swift */,
+				784A3B56208F34AC00984197 /* Common */,
+				784A3B53208F2B0C00984197 /* Home */,
+				784A3B55208F2B5A00984197 /* Network */,
+				784A3B54208F2B1800984197 /* Other */,
 				784A3B2C208F0EEC00984197 /* Main.storyboard */,
+				784A3B2A208F0EEC00984197 /* ViewController.swift */,
 				784A3B2F208F0EEE00984197 /* Assets.xcassets */,
 				784A3B31208F0EEE00984197 /* LaunchScreen.storyboard */,
 				784A3B34208F0EEE00984197 /* Info.plist */,
+				784A3B42208F142600984197 /* NewPorject-Bridging-Header.h */,
 			);
 			path = NewPorject;
+			sourceTree = "<group>";
+		};
+		784A3B53208F2B0C00984197 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				784A3B47208F28EB00984197 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		784A3B54208F2B1800984197 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				784A3B4F208F299900984197 /* CYLPlusButtonSubclass.swift */,
+				784A3B51208F2A0B00984197 /* MainTabBarController.swift */,
+				784A3B3E208F124900984197 /* MD5Digest.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		784A3B55208F2B5A00984197 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				784A3B3A208F11B100984197 /* Api.swift */,
+				784A3B3C208F11FF00984197 /* Network.swift */,
+				784A3B40208F127700984197 /* AuthPlugin.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		784A3B56208F34AC00984197 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				784A3B57208F34E300984197 /* Common.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		B000D7F3E2886E691D17A813 /* Frameworks */ = {
@@ -122,6 +189,7 @@
 				TargetAttributes = {
 					784A3B24208F0EEC00984197 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -183,6 +251,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NewPorject/Pods-NewPorject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/Cupcake/Cupcake.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -193,6 +262,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cupcake.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
@@ -212,8 +282,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784A3B3B208F11B100984197 /* Api.swift in Sources */,
+				784A3B50208F299900984197 /* CYLPlusButtonSubclass.swift in Sources */,
+				784A3B58208F34E300984197 /* Common.swift in Sources */,
 				784A3B2B208F0EEC00984197 /* ViewController.swift in Sources */,
+				784A3B41208F127700984197 /* AuthPlugin.swift in Sources */,
+				784A3B3D208F11FF00984197 /* Network.swift in Sources */,
+				784A3B3F208F124900984197 /* MD5Digest.swift in Sources */,
+				784A3B4C208F290D00984197 /* ManageViewController.swift in Sources */,
+				784A3B4A208F28FE00984197 /* TitleViewController.swift in Sources */,
+				784A3B48208F28EB00984197 /* HomeViewController.swift in Sources */,
 				784A3B29208F0EEC00984197 /* AppDelegate.swift in Sources */,
+				784A3B4E208F291C00984197 /* MineViewController.swift in Sources */,
+				784A3B52208F2A0B00984197 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,11 +439,17 @@
 			baseConfigurationReference = 05A52CF33E77E4BC750388EF /* Pods-NewPorject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NewPorject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.NewPorject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewPorject/NewPorject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,11 +460,16 @@
 			baseConfigurationReference = BC15204E5F954A0CB02A5F0F /* Pods-NewPorject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NewPorject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.NewPorject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewPorject/NewPorject-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -9,6 +9,8 @@ target 'NewPorject' do
   pod 'SwiftyJSON'
   pod 'Kingfisher'
   pod 'MJRefresh'
+  pod 'CYLTabBarController'
+#  pod 'FacebookCore', inhibit_warnings: true  取消该库的所有警告
   # Pods for NewPorject
 
 end
