@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyJSON
 import Cupcake
 
 class ViewController: UIViewController {
@@ -24,15 +23,15 @@ class ViewController: UIViewController {
         })
     }
     func loadDataJD(){
-        Network.request(.JD, success: { (json) in
-            self.lab.str(json)
-        }, error: { (statusCode) in
-            //服务器报错等问题
-            print("请求错误！错误码：\(statusCode)")
-        }) { (error) in
-            //没有网络等问题
-            print("请求失败！错误信息：\(error.errorDescription ?? "")")
-        }
+//        Network.request(.JD, success: { (json) in
+//            self.lab.str(json)
+//        }, error: { (statusCode) in
+//            //服务器报错等问题
+//            print("请求错误！错误码：\(statusCode)")
+//        }) { (error) in
+//            //没有网络等问题
+//            print("请求失败！错误信息：\(error.errorDescription ?? "")")
+//        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

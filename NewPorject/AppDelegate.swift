@@ -57,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate ,UITabBarControllerDelegat
                              CYLTabBarItemImage:"icon_tab_guangchang_n",
                              CYLTabBarItemSelectedImage:"icon_tab_guangchang_h"]
         
-        let tabBarItemTwo = [CYLTabBarItemTitle:"订单",
+        let tabBarItemTwo = [CYLTabBarItemTitle:"音乐",
                              CYLTabBarItemImage:"icon_tab_guanli_n",
                              CYLTabBarItemSelectedImage:"icon_tab_guanli_h"]
         

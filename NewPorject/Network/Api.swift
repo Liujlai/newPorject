@@ -7,11 +7,8 @@
 //
 
 import Foundation
-import Foundation
+
 import Moya
-let GfoodsUrl = "https://www.365greenlife.com/api/tiptop/v1/"
-let token = "  "
-let kJD = "http://139.199.169.203/"
 let ApiProvider = MoyaProvider<Model>()
 
 public enum Model{
@@ -19,6 +16,8 @@ public enum Model{
     case scores
     case JD
     case operation
+    case channels
+    case playlist(String)
 }
 extension Model:TargetType{
     //    服务器地址
@@ -28,6 +27,10 @@ extension Model:TargetType{
             return URL(string: GfoodsUrl)!
         case .JD:
             return URL(string: kJD)!
+        case .channels:
+            return URL(string: "https://www.douban.com")!
+        case .playlist(_):
+            return URL(string: "https://douban.fm")!
             //        default:
         }
     }
@@ -42,13 +45,17 @@ extension Model:TargetType{
             return "account/address/operation"
         case .JD:
             return "ApiSearch.php"
+        case .channels:
+            return "/j/app/radio/channels"
+        case .playlist(_):
+            return "/j/mine/playlist"
             //        default:
         }
     }
     //    请求类型
     public var method: Moya.Method {
         switch self {
-        case .list, .scores:
+        case .list, .scores, .channels,.playlist(_):
             return .get
         default:
             return .post
@@ -72,6 +79,15 @@ extension Model:TargetType{
             return .requestParameters(parameters: param, encoding: JSONEncoding.default)
             //        default:
             
+        case .channels:
+            return .requestPlain
+        case .playlist(let channel):
+            var params: [String: Any] = [:]
+            params["channel"] = channel
+            params["type"] = "n"
+            params["from"] = "mainsite"
+            return .requestParameters(parameters: params,
+                                      encoding: URLEncoding.default)
         }
     }
     

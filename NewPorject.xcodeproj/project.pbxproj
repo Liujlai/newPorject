@@ -24,6 +24,14 @@
 		784A3B50208F299900984197 /* CYLPlusButtonSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B4F208F299900984197 /* CYLPlusButtonSubclass.swift */; };
 		784A3B52208F2A0B00984197 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B51208F2A0B00984197 /* MainTabBarController.swift */; };
 		784A3B58208F34E300984197 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A3B57208F34E300984197 /* Common.swift */; };
+		7888392B20900DAA00AF32B9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888392A20900DAA00AF32B9 /* BaseViewController.swift */; };
+		7888392F20902A5800AF32B9 /* heibai.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7888392E20902A5800AF32B9 /* heibai.gif */; };
+		7888393120902B0700AF32B9 /* MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888393020902B0700AF32B9 /* MBProgressHUD.swift */; };
+		7888393320906A4A00AF32B9 /* Douban.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888393220906A4A00AF32B9 /* Douban.swift */; };
+		7888393520906CFA00AF32B9 /* DoubanNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888393420906CFA00AF32B9 /* DoubanNetworkService.swift */; };
+		7888393B2090843D00AF32B9 /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788839382090843C00AF32B9 /* Single+ObjectMapper.swift */; };
+		7888393C2090843D00AF32B9 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788839392090843C00AF32B9 /* Response+ObjectMapper.swift */; };
+		7888393D2090843D00AF32B9 /* ObservableType+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888393A2090843C00AF32B9 /* ObservableType+ObjectMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +56,14 @@
 		784A3B4F208F299900984197 /* CYLPlusButtonSubclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYLPlusButtonSubclass.swift; sourceTree = "<group>"; };
 		784A3B51208F2A0B00984197 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		784A3B57208F34E300984197 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7888392A20900DAA00AF32B9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7888392E20902A5800AF32B9 /* heibai.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heibai.gif; sourceTree = "<group>"; };
+		7888393020902B0700AF32B9 /* MBProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUD.swift; sourceTree = "<group>"; };
+		7888393220906A4A00AF32B9 /* Douban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Douban.swift; sourceTree = "<group>"; };
+		7888393420906CFA00AF32B9 /* DoubanNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanNetworkService.swift; sourceTree = "<group>"; };
+		788839382090843C00AF32B9 /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
+		788839392090843C00AF32B9 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		7888393A2090843C00AF32B9 /* ObservableType+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObjectMapper.swift"; sourceTree = "<group>"; };
 		BC15204E5F954A0CB02A5F0F /* Pods-NewPorject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPorject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewPorject/Pods-NewPorject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,9 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				784A3B28208F0EEC00984197 /* AppDelegate.swift */,
-				784A3B4B208F290D00984197 /* ManageViewController.swift */,
-				784A3B49208F28FD00984197 /* TitleViewController.swift */,
-				784A3B4D208F291C00984197 /* MineViewController.swift */,
+				7888393F209086D400AF32B9 /* Mange */,
+				7888393E209086BD00AF32B9 /* Mine */,
+				78883936209070A400AF32B9 /* Second */,
 				784A3B56208F34AC00984197 /* Common */,
 				784A3B53208F2B0C00984197 /* Home */,
 				784A3B55208F2B5A00984197 /* Network */,
@@ -115,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				784A3B47208F28EB00984197 /* HomeViewController.swift */,
+				7888392E20902A5800AF32B9 /* heibai.gif */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -122,6 +139,7 @@
 		784A3B54208F2B1800984197 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				788839372090842400AF32B9 /* ObjectMapper */,
 				784A3B4F208F299900984197 /* CYLPlusButtonSubclass.swift */,
 				784A3B51208F2A0B00984197 /* MainTabBarController.swift */,
 				784A3B3E208F124900984197 /* MD5Digest.swift */,
@@ -143,8 +161,46 @@
 			isa = PBXGroup;
 			children = (
 				784A3B57208F34E300984197 /* Common.swift */,
+				7888393020902B0700AF32B9 /* MBProgressHUD.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		78883936209070A400AF32B9 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				784A3B49208F28FD00984197 /* TitleViewController.swift */,
+				7888393220906A4A00AF32B9 /* Douban.swift */,
+				7888393420906CFA00AF32B9 /* DoubanNetworkService.swift */,
+				7888392A20900DAA00AF32B9 /* BaseViewController.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		788839372090842400AF32B9 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				7888393A2090843C00AF32B9 /* ObservableType+ObjectMapper.swift */,
+				788839392090843C00AF32B9 /* Response+ObjectMapper.swift */,
+				788839382090843C00AF32B9 /* Single+ObjectMapper.swift */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		7888393E209086BD00AF32B9 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				784A3B4D208F291C00984197 /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7888393F209086D400AF32B9 /* Mange */ = {
+			isa = PBXGroup;
+			children = (
+				784A3B4B208F290D00984197 /* ManageViewController.swift */,
+			);
+			path = Mange;
 			sourceTree = "<group>";
 		};
 		B000D7F3E2886E691D17A813 /* Frameworks */ = {
@@ -216,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7888392F20902A5800AF32B9 /* heibai.gif in Resources */,
 				784A3B33208F0EEE00984197 /* LaunchScreen.storyboard in Resources */,
 				784A3B30208F0EEE00984197 /* Assets.xcassets in Resources */,
 				784A3B2E208F0EEC00984197 /* Main.storyboard in Resources */,
@@ -254,10 +311,14 @@
 				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/Cupcake/Cupcake.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -265,10 +326,14 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cupcake.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -282,15 +347,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7888393320906A4A00AF32B9 /* Douban.swift in Sources */,
 				784A3B3B208F11B100984197 /* Api.swift in Sources */,
+				7888393D2090843D00AF32B9 /* ObservableType+ObjectMapper.swift in Sources */,
 				784A3B50208F299900984197 /* CYLPlusButtonSubclass.swift in Sources */,
 				784A3B58208F34E300984197 /* Common.swift in Sources */,
+				7888393520906CFA00AF32B9 /* DoubanNetworkService.swift in Sources */,
 				784A3B2B208F0EEC00984197 /* ViewController.swift in Sources */,
 				784A3B41208F127700984197 /* AuthPlugin.swift in Sources */,
+				7888392B20900DAA00AF32B9 /* BaseViewController.swift in Sources */,
 				784A3B3D208F11FF00984197 /* Network.swift in Sources */,
 				784A3B3F208F124900984197 /* MD5Digest.swift in Sources */,
 				784A3B4C208F290D00984197 /* ManageViewController.swift in Sources */,
+				7888393C2090843D00AF32B9 /* Response+ObjectMapper.swift in Sources */,
 				784A3B4A208F28FE00984197 /* TitleViewController.swift in Sources */,
+				7888393120902B0700AF32B9 /* MBProgressHUD.swift in Sources */,
+				7888393B2090843D00AF32B9 /* Single+ObjectMapper.swift in Sources */,
 				784A3B48208F28EB00984197 /* HomeViewController.swift in Sources */,
 				784A3B29208F0EEC00984197 /* AppDelegate.swift in Sources */,
 				784A3B4E208F291C00984197 /* MineViewController.swift in Sources */,

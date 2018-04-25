@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 //屏幕的宽度
 let kScreenW = UIScreen.main.bounds.size.width
 //屏幕的高度
@@ -21,7 +20,9 @@ let kisX = UIScreen.main.bounds.height == 812
 //客服号码
 let kKefu = "0791-838888888"
 
-
+let GfoodsUrl = "https://www.365greenlife.com/api/tiptop/v1/"
+let token = "  "
+let kJD = "http://139.199.169.203/"
 //返回按钮
 import Cupcake
 class goBackBtn{
@@ -40,3 +41,18 @@ class goBackBtn{
     
 }
 let leftBtn=goBackBtn()
+
+
+//pod
+//Using Alamofire (4.7.1)
+//Using CYLTabBarController (1.17.6)
+//Using Cupcake (1.2.1)
+//Using Kingfisher (4.7.0)
+//Using MBProgressHUD (1.1.0)
+//Using MJRefresh (3.1.15.3)
+//Installing Moya 11.0.2
+//Using Result (3.2.4)
+//Using RxCocoa (4.1.2)
+//Using RxSwift (4.1.2)
+//Using SwiftGifOrigin (1.6.1)
+//Using SwiftyJSON (4.0.0)
